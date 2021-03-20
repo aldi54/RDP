@@ -1,4 +1,4 @@
-name: CI
+name: RDP-VPS
 
 on: workflow_dispatch
 
@@ -40,4 +40,5 @@ jobs:
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
       
-    
+      
+      
